@@ -1,0 +1,167 @@
+        .dropdown a.activenotif{
+            color: #68B3C8 !important;
+        }
+
+        .notif{
+            width: 400px;
+            max-height: 460px;
+        }
+        .notif .dropdown-header a:hover, .notif .dropdown-header a:focus{
+            text-decoration: underline !important;
+        }
+        .notif li.notification{
+            min-height: 60px;
+            border-bottom: 1px solid #ddd;
+        }
+        .notif li.notification:last-child{
+            border-bottom: 0 !important;
+        }
+        .notif li a{
+            padding: 5px !important;
+        }
+        .notif li.notification a p.notif-text{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .notif li.notification a:hover{
+            background: #777;
+        }
+        .notif li.notification:hover{
+            background: #777;
+        }
+        .notif li.notification:hover a{
+            color: #eee;
+        }
+        .notification .date{
+            font-size: 12px;
+            text-align: right;
+        }
+        .notif-active{
+            background: #dbe8ff;
+        } 
+        .notif-active a{
+            background: #dbe8ff;
+        } 
+        .dropdown-footer{
+            padding: 5px;
+        }
+        .dropdown-footer a{
+            padding: 10px;
+        }
+
+
+        .message-bar{
+            background: #d7e3fa; 
+            padding: 5px 0;
+            max-height: 400px;
+            min-height: 400px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .message-bar-header{
+            border-bottom: 1px solid #777;
+            min-height: 46px;
+        }
+        .message-not-seen{
+            background: #a7b6d0;
+        }
+
+
+        .user-message{
+            padding: 15px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 1s;
+            border-bottom: 1px solid #ccc;
+        }
+        .user-message:last-child{
+            border-bottom: 0;
+        }
+        .user-message:hover, .user-message:focus{
+            background: white;
+        }
+        .col-sm-12.user-message.message-not-seen.hovered {
+            background: white;
+        }
+        .user-message .col-sm-12 p{
+            font-size: 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 25ch;
+        }
+
+        .message-content{
+            background: #f4f3ef;
+            min-height: 400px;
+            max-height: 400px;
+            overflow: hidden;
+            border-left: 1px solid #ccc;
+        }
+
+        .message-content-header{
+            border-bottom: 1px solid #ccc;
+            min-height: 50px;
+        }
+        .message-content-body{
+            min-height: 264px;
+            max-height: 264px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding: 15px;
+        }
+        .message-content-body .row{
+            padding: 5px 20px;
+        }
+        .message-content-footer{
+            border-top: 1px solid #ddd;
+            min-height: 76px;
+        }
+
+        .msg-body{
+            position: relative;
+            min-width: 120px;
+        }
+        .msg-body p {
+            font-size: 13px;
+            padding: 5px 15px;
+        }
+
+        .left-msg{
+            float: left;
+            text-align: left;
+        }
+        .left-msg p{
+            background: #88bade;
+            color: white;
+            border-radius: 0 8px 8px 8px;
+        }
+
+        .right-msg{
+            float: right;
+            text-align: right;
+        }
+        .right-msg p{
+            background: darkgrey;
+            border-radius: 8px 0 8px 8px;
+            color: white;
+        }
+
+        /*##################################################################*/
+
+        .img-polaroid{
+            cursor: pointer;
+            transition: 1s;
+        }
+        .img-polaroid:hover{
+            -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+            filter: grayscale(100%);
+        }
+
+        /*#################################################################*/
+
+        .sidebar-wrapper #logo a{
+            width: 100%;
+        }
